@@ -10,6 +10,10 @@
             PrestamoPersonal prestamoPersonal = new PrestamoPersonal(cliente2, 700000, 8);
             PrestamoViaje prestamoViaje = new PrestamoViaje(cliente1, 3000000, 13, "Medellin");
             PrestamoHipotecario prestamoHipotecario1 = new PrestamoHipotecario(cliente2, 1000000, 5);
+            prestamoHipotecario.realizar_prestamo();
+            prestamoPersonal.realizar_prestamo();
+            prestamoViaje.realizar_prestamo();
+            prestamoHipotecario1.realizar_prestamo();
         }
     }
 
